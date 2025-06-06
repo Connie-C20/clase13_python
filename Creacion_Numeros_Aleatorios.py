@@ -7,3 +7,9 @@ for i in range(100): #Ciclo para repetir 100 veces las iteraciones
     numeros.append(n)#Guardamos en la lista el numero aleatorio
 
 print(numeros) #Visualizamos lista
+
+cont = 0
+for i in range(len(numeros)):
+    if numeros[i]%2==0:
+        cont+=1
+print(f"Cantidad de numeros pares : {cont}")
